@@ -1,0 +1,16 @@
+# Run these inside the grade-analyzer folder (after installing Git and creating an empty GitHub repo)
+git init
+git branch -M main
+git add .gitignore README.md
+git commit -m "Add README and .gitignore"
+git add src/main.c
+git commit -m "Add Student struct, input validation helpers and grade calculation"
+# (Ideal: make 6-10 commits as you work. Examples of good messages below.)
+# git commit -m "Add menu and add-student feature"
+# git commit -m "Add display, search and class statistics"
+# git commit -m "Add rank list using bubble sort"
+# git commit -m "Add file save/load for persistence"
+# git commit -m "Fix rank list header alignment"
+# git commit -m "Add project report with flowcharts and test cases"
+git remote add origin https://github.com/<your-username>/grade-analyzer.git
+git push -u origin main
